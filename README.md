@@ -1,5 +1,7 @@
 # Fortran to Python module basic example
 
+A simple reimplementation of trapezoidal integration (see [wikipedia](https://en.wikipedia.org/wiki/Trapezoidal_rule)) with simple array utilities in Fortran, compilation to a Python module using `numpy.f2py`, and comparison with `numpy.trapz`.
+
 ## Demo
 
 ```sh
@@ -28,6 +30,7 @@ Tested with:
 - gcc (gfortran) version 13.1.1
 - python version 3.11.0
 - numpy version 1.24.2
+- CPU: Intel(R) Core(TM) i7-7500U CPU  2.70GHz
 
 ### Fortran executable
 
