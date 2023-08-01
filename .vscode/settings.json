@@ -1,0 +1,6 @@
+{
+	"fortran.linter.extraArgs": [
+		"-Wno-tabs",
+		"-J../build"
+	]
+}
